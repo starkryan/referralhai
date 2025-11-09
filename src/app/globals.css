@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for EarnFlow APK download */
+.earnflow-button {
+  @apply bg-gradient-to-r from-google-green to-google-blue text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 cursor-pointer;
+}
+
+.earnflow-notification {
+  @apply fixed top-5 right-5 px-6 py-4 rounded-lg shadow-xl text-white font-medium z-50 transform transition-all duration-300;
+}
+
+.earnflow-notification.success {
+  @apply bg-green-500;
+}
+
+.earnflow-notification.error {
+  @apply bg-red-500;
+}
+
+.installation-guide {
+  @apply bg-white border-2 border-google-green rounded-xl p-6 shadow-xl mx-auto max-w-lg my-8;
+}
+
+.installation-guide h3 {
+  @apply text-google-green text-xl font-bold mb-4 text-center;
+}
+
+.installation-guide ol {
+  @apply text-gray-700 leading-relaxed mb-4 pl-5;
+}
+
+.installation-guide li {
+  @apply mb-3;
+}
+
+.installation-guide li strong {
+  @apply text-google-green block mb-1;
+}
+
+/* Play Store styling */
+.play-store-container {
+  @apply min-h-screen bg-gray-50;
+}
+
+.play-store-header {
+  @apply bg-white shadow-sm border-b border-gray-200;
+}
+
+.play-store-content {
+  @apply max-w-7xl mx-auto px-4 py-8;
+}
+
+.app-info {
+  @apply flex flex-col md:flex-row gap-8 mb-8;
+}
+
+.app-icon {
+  @apply w-32 h-32 md:w-48 md:h-48 rounded-xl shadow-lg;
+}
+
+.app-details h1 {
+  @apply text-3xl font-bold text-gray-900 mb-2;
+}
+
+.app-details .developer {
+  @apply text-lg text-gray-600 mb-4;
+}
+
+.app-details .rating {
+  @apply flex items-center gap-2 mb-4;
+}
+
+.install-section {
+  @apply mt-8;
+}
+
+.download-button {
+  @apply bg-google-green text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-green-600 transition-colors duration-200 shadow-lg;
+}
+
+.security-notice {
+  @apply bg-yellow-50 border border-yellow-200 rounded-lg p-4 mt-6;
+}
+
+.security-notice strong {
+  @apply text-yellow-800;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .app-info {
+    @apply flex-col;
+  }
+
+  .app-icon {
+    @apply w-24 h-24 mx-auto;
+  }
+
+  .app-details h1 {
+    @apply text-2xl;
+  }
+
+  .download-button {
+    @apply w-full text-base px-6 py-3;
+  }
+}
