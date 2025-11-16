@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.rechargejio.in/sitemap.xml
+
+# Disallow specific directories if any
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl delay (optional, remove if not needed)
+# Crawl-delay: 1
