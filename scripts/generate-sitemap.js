@@ -20,7 +20,7 @@ const pages = [
     images: [
       {
         loc: '/images/logo.png',
-        title: 'FreeRecharge App - UPI & Bill Payments',
+        title: 'FreeRecharge App - UPI &amp; Bill Payments',
         caption: 'Download FreeRecharge app for secure UPI payments and bill recharges'
       }
     ]

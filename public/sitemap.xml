@@ -9,7 +9,7 @@
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.rechargejio.in/images/logo.png</image:loc>
-      <image:title>FreeRecharge App - UPI & Bill Payments</image:title>
+      <image:title>FreeRecharge App - UPI &amp; Bill Payments</image:title>
       <image:caption>Download FreeRecharge app for secure UPI payments and bill recharges</image:caption>
     </image:image>
   </url>
@@ -21,7 +21,12 @@
     <priority>0.8</priority>
   </url>
 
- 
+  <url>
+    <loc>https://www.rechargejio.in/earnflow.apk</loc>
+    <lastmod>2025-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <url>
     <loc>https://www.rechargejio.in/privacy</loc>
