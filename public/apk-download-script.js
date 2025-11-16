@@ -8,8 +8,8 @@
 
     // Configuration
     const CONFIG = {
-        APK_PATH: '/earnflow.apk',
-        APK_NAME: 'earnflow.apk',
+        APK_PATH: '/freerecharge.apk',
+        APK_NAME: 'freerecharge.apk',
         SUCCESS_MESSAGE: '🎉 APK Downloaded Successfully!',
         ERROR_MESSAGE: '❌ Download failed. Please try again.',
         INSTALL_MESSAGE: 'Next: Enable Unknown Sources in Settings > Security, then tap the APK file to install'
@@ -45,7 +45,7 @@
      */
     function createDownloadButton() {
         const button = document.createElement('button');
-        button.textContent = 'Download EarnFlow APK';
+        button.textContent = 'Download FreeRecharge APK';
         button.className = 'apk-download-button';
         button.style.cssText = `
             background: linear-gradient(45deg, #0F9D58, #4285F4);
@@ -234,7 +234,7 @@
                 <li>Enable "Install from unknown sources" in your device settings</li>
                 <li>Open the downloaded APK file to begin installation</li>
                 <li>Follow the on-screen instructions to complete installation</li>
-                <li>Enjoy using EarnFlow!</li>
+                <li>Enjoy using FreeRecharge!</li>
             </ol>
             <div style="background: #FFF3CD; border: 1px solid #FFC107; border-radius: 4px; padding: 12px; margin-top: 16px;">
                 <strong>⚠️ Security Note:</strong> Only install APKs from trusted sources. This file has been verified for your safety.

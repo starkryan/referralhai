@@ -7,10 +7,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3002'),
-  title: 'EarnFlow – Apps on Google Play',
+  title: 'FreeRecharge – Apps on Google Play',
   description: 'Earn Cash by spin the wheel',
   openGraph: {
-    title: 'EarnFlow – Apps on Google Play',
+    title: 'FreeRecharge – Apps on Google Play',
     description: 'Earn Cash by spin the wheel',
     images: ['/images/logo.png'],
     type: 'website',
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'EarnFlow – Apps on Google Play',
+    title: 'FreeRecharge – Apps on Google Play',
     description: 'Earn Cash by spin the wheel',
     images: ['/images/logo.png'],
   },
